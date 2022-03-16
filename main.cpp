@@ -19,7 +19,8 @@ int main(){
 
   do{
     cout<<endl;
-cout<<"Masukkan Jenis Operasi Bilangan\t: ";cin>>ob;
+    cout<<"Masukkan Jenis Operasi Bilangan\t: ";cin>>ob;
+    
 if(ob<=5){
   cout<<"Masukkan Angka Pertama\t\t: ";cin>>x;
   cout<<"Masukkan Angka Kedua\t\t: ";cin>>y;
@@ -27,6 +28,7 @@ if(ob<=5){
 else{
   cout<<"Masukkan Angka Pertama :";cin>>x;
 }
+    
 switch (ob) {
   case 1:
   cout<<"Hasil Penjumlahan "<<x<<" dengan "<<y<<" adalah "<<tambah(x,y);
