@@ -1,9 +1,10 @@
 #include<iostream>
 #include<math.h>
 #include"operasi.h"
-using namespace std;
 
+using namespace std;
 int main(){
+ 
   int ob, x, y;
   char n;
   cout<<"\t\tKalkulator"<<endl;
@@ -28,7 +29,7 @@ if(ob<=5){
 else{
   cout<<"Masukkan Angka Pertama :";cin>>x;
 }
-    
+
 switch (ob) {
   case 1:
   cout<<"Hasil Penjumlahan "<<x<<" dengan "<<y<<" adalah "<<tambah(x,y);
@@ -62,6 +63,6 @@ cout<<endl;
 cout<<endl;
 cout<<"Menghitung lagi ?(Y=Ya/T=Tidak) ";cin>>n;
 }
-while(n=='Y'||n=='y');
+while (n=='Y'||n=='y');
 return 0;
 }
