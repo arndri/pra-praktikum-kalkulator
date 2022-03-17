@@ -1,5 +1,5 @@
 Pra-Praktikum
-Kalkulator
+Program Kalkulator
 
 Kelompok :
 1.Andri Pratama-2100018249
